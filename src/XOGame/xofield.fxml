@@ -54,7 +54,23 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
             </GridPane>
-            <Label id="win" alignment="CENTER" text="YOU WIN!" textAlignment="CENTER" textFill="#13860d" visible="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="115.0">
+            <Label id="win" alignment="CENTER" text="ТЫ ПОБЕДИЛ" textAlignment="CENTER" textFill="#13860d" visible="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="115.0">
+               <font>
+                  <Font size="36.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#0b2210" spread="0.76" />
+               </effect>
+            </Label>
+            <Label id="compwin" alignment="CENTER" layoutX="10.0" layoutY="125.0" text="Я ВЫИГРАЛ" textAlignment="CENTER" textFill="#cd1b0a" visible="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="115.0">
+               <font>
+                  <Font size="48.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#0b2210" spread="0.76" />
+               </effect>
+            </Label>
+            <Label id="draw" alignment="CENTER" layoutX="10.0" layoutY="135.0" text="Ничья!" textAlignment="CENTER" textFill="YELLOW" visible="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="115.0">
                <font>
                   <Font size="48.0" />
                </font>
